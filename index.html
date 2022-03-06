@@ -1,10 +1,52 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset=utf-8>
   <title>In Memoriam - Emilio Antonio Furlán</title>
-</head>
-<body>
+  <style>
+    video {
+      width: 100% !important;
+      height: auto !important;
+    }
 
+    main {
+      background: white;
+      height: 100vh;
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 0;
+    }
+
+    body {
+      margin: 0;
+      background-color: #eee;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <section id="video">
+      <video controls src="./assets/in-memoriam.mp4" poster="./assets/in-memoriam-no-qr-sm.jpg" width="620">
+        Si no puedes ver este video, puedes
+        <a href="./assets/in-memoriam-no-qr-sm.jpg">descargarlo aquí</a>
+      </video>
+    </section>
+    <section id="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10717641.837763239!2d-81.5714175100977!3d-9.685515174651353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd172da2584244472!2zNsKwNDEnMTEuNiJTIDc2wrAxMicxNS42Ilc!5e1!3m2!1ses-419!2sar!4v1646530903605!5m2!1ses-419!2sar"
+        width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>  
+    </section>
+    <section id="image">
+      <a href="./assets/in-memoriam-no-qr.jpg"><img src="./assets/in-memoriam-no-qr-sm.png" alt="Recuerdo" /></a> 
+    </section>
+  </main>
 </body>
+
 </html>
